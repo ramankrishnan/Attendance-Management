@@ -1,26 +1,22 @@
 {
-  "name": "attendance-management-system-mern-stack",
+  "name": "attendance-management-system-frontend",
   "version": "1.0.0",
-  "description": "A comprehensive attendance management system built with the MERN stack (MongoDB, Express.js, React, Node.js). Features include user authentication, real-time updates, and detailed reporting. Ideal for educational institutions and businesses.",
+  "description": "Frontend for Attendance Management System (React.js)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.8.3",
-    "sequelize": "^6.37.3"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  "license": "ISC"
 }
